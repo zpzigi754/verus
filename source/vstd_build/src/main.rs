@@ -99,6 +99,7 @@ fn main() {
         "2".to_string(),
         "--is-vstd".to_string(),
         "--compile".to_string(),
+        "--target=aarch64-unknown-none-softfloat".to_string(),
     ];
     if no_verify {
         child_args.push("--no-verify".to_string());
